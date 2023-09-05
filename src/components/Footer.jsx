@@ -1,6 +1,9 @@
 import Foot from "../img/footer.png"
 
 const Footer = () => {
+  
+
+
   return (
     <footer>
       <img
