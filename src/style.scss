@@ -2,11 +2,10 @@ $lightgreen : #b9e7e7;
 
 
 .app{
-    display: flex;
-    justify-content: center;
+
 
     .container{
-        width: 1024px;
+
 
         .link{
             text-decoration: none;
@@ -67,15 +66,29 @@ $lightgreen : #b9e7e7;
 
         ////// Navbar
         .navbar {
+            padding: 10px 0;
+            background-color: antiquewhite;
             .container{
-                padding: 10px 0px;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                margin: 0 auto;
+                padding: 0 20px;
+                max-width: 1200px;
                 .logo{
-                    width: 1%;
-                    
+                    height: 50px;
+                    width: auto;
                 }
-                .links{}
+                .links{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    h6 {
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
             }
         }
 
