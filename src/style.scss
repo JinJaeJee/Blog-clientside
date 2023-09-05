@@ -121,7 +121,6 @@ $lightgreen : #b9e7e7;
         }
         /////footer
         footer{
-            margin-top: 100px;
             padding: 20px;
             background-color: gray;
             display: flex;
@@ -130,6 +129,27 @@ $lightgreen : #b9e7e7;
             img{
                 height: 75px;
             }
+        }
+
+        /////home
+        .home{
+            margin-top: 20px;
+            .logologic {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+              }
+            .logolist {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            img{
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+            }
+                          
         }
     }
 }
