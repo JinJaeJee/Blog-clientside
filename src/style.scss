@@ -119,6 +119,17 @@ $lightgreen : #b9e7e7;
                 }
             }
         }
-
+        /////footer
+        footer{
+            margin-top: 100px;
+            padding: 20px;
+            background-color: gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                height: 75px;
+            }
+        }
     }
 }
