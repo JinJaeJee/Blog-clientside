@@ -8,6 +8,7 @@ import Login from "./pages/Login"
 import Home from "./pages/Home"
 import Single from "./pages/Single"
 import Write from "./pages/Write"
+import Logo from "./pages/Logo"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./style.scss"
@@ -17,6 +18,7 @@ const Layout = () => {
   return (
     <>
       <Navbar/>
+      <Logo/>
       <Outlet/>
       <Footer/>
     </>
